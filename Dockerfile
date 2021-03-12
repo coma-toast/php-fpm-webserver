@@ -1,7 +1,7 @@
 FROM composer:2 as composerBuilder
 FROM caddy:2 as caddyBuilder
 
-FROM php:7.4-fpm-buster
+FROM php:8.0-fpm-buster
 WORKDIR /var/www
 COPY --from=composerBuilder /usr/bin/composer /usr/bin/composer
 COPY --from=caddyBuilder /usr/bin/caddy /usr/bin/caddy
