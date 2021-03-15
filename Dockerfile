@@ -10,6 +10,7 @@ COPY EntryPoint /usr/local/bin/EntryPoint
 RUN apt-get update
 RUN apt-get install -y git libxml2-dev libzip-dev
 RUN docker-php-ext-install xml
+RUN docker-php-ext-install pdo
 RUN docker-php-ext-install zip
 CMD ["EntryPoint"]
 EXPOSE 80
