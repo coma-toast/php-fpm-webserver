@@ -1,0 +1,7 @@
+# System Files
+/.vscode/
+/.idea/
+.DS_Store
+
+# Temporary Files
+/var/
