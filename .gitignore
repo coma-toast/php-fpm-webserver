@@ -5,3 +5,7 @@
 
 # Temporary Files
 /var/
+
+# Environment Files
+/.env.local
+/.env.*.local
