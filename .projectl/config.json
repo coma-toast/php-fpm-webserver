@@ -1,0 +1,4 @@
+{
+    "docker_name": "aaronellington/php-fpm-webserver",
+    "custom_dockerfile": true
+}

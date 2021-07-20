@@ -13,7 +13,7 @@ help: ## Display general help about this command
 full: lint test build
 
 docker:
-	docker build -t :latest .
+	docker build -t aaronellington/php-fpm-webserver:latest .
 
 build: ## Build the application
 
